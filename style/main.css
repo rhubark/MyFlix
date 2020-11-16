@@ -47,7 +47,7 @@ header nav a:hover{
 
 /*Filme principal*/
 
-.filme-principal{
+.titulo-principal{
     font-size:  16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-the-boys.jpg');
 
@@ -60,19 +60,58 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.series-principal{
+    font-size:  16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-the-boys.jpg');
+
+    height:400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmes-principal{
+    font-size:  16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.255)100%), url('../img/tenet_cover.jpg');
+
+    height:400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.documentarios-principal{
+    font-size:  16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.534)100%), url('../img/explaned\ cover.jpg');
+
+    height:400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filme-principal .titulo{
+.titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS';
 }
 
 .botao{
-    background-color: rgba(0,0,0,.50);
+    background-color: rgba(61, 61, 61, 0.493);
     border: none;
     color: seashell;
 
@@ -82,6 +121,7 @@ header nav a:hover{
 
     cursor:pointer;
     transition: .4s ease all;
+    margin-bottom: 1%;
 }
 
 .botao:hover{
@@ -111,5 +151,5 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 7px;
-    
+
 }
