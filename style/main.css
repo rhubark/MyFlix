@@ -14,8 +14,8 @@
 
 body{
     background: var(--preta);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 
@@ -34,13 +34,14 @@ header .logo{
 }
 
 header nav a{
-    text-decoration: none;
-    color: #aaa;
+    text-decoration:none;
+    color:#AAA;
     margin-right: 10px;
 }
 
+
 header nav a:hover{
-    color:rgba(255, 255, 255, 0.692);
+    color:rgb(255, 0, 0);
 }
 
 
@@ -103,6 +104,12 @@ header nav a:hover{
 
 .box-filme{
     height: 100%;
-    width:  100%;
+    width: 100%;
     display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top: 7px;
+    
 }
