@@ -80,7 +80,7 @@ header nav a:hover{
     font-size: 12px;
 
     cursor:pointer;
-   transition: .4s ease all;
+    transition: .4s ease all;
 }
 
 .botao:hover{
@@ -90,4 +90,19 @@ header nav a:hover{
 
 .botao i{
     margin-right: 5px;
+}
+
+.container{
+    margin-left: 50px;
+}
+
+.filme-principal .container{
+    width: 50%;
+}
+
+
+.box-filme{
+    height: 100%;
+    width:  100%;
+    display: block;
 }

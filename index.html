@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!---owl css--->>
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+
     <title>MyFLIX</title>
 </head>
 <body>
@@ -24,24 +31,53 @@
                 <div class="container">
                     <h3 class="titulo">The boys</h3>
                     <p class="descricao">Na trama, conhecemos um mundo em que super-heróis são as maiores celebridades do planeta, e rotineiramente abusam dos seus poderes ao invés de os usarem para o bem.</p>
+                    <div class="botoes" hrf>
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
                 </div>
-
-                <div class="botes">
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                        ASSISTIR A
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
-                </div>
-
             </div>
         </main>
 
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/12_anos_escravidao.jpg" alt="" srcset="">                    
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/American_dad.jpg" alt="" srcset="">                    
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/big_bang.jpg" alt="" srcset="">                    
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/borat.jpg" alt="" srcset="">                    
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/dark.jpg" alt="" srcset="">                    
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mandalorian.jpg" alt="" srcset="">                    
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mutantes.jpg" alt="" srcset="">                    
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/o_iluminado.jpg" alt="" srcset="">                    
+                </div>
+            </div>
+        </div>
+
+
         <script src="https://kit.fontawesome.com/2f4fd0ebed.js" crossorigin="anonymous"></script>
-
-
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
 </body>
 </html>
