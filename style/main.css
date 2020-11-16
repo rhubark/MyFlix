@@ -110,6 +110,12 @@ header nav a:hover{
     font-family: 'Trebuchet MS';
 }
 
+.titulo-sinopse{
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+}
+
 .botao{
     background-color: rgba(61, 61, 61, 0.493);
     border: none;
@@ -122,6 +128,10 @@ header nav a:hover{
     cursor:pointer;
     transition: .4s ease all;
     margin-bottom: 1%;
+}
+
+.botes-sinopse{
+    margin-top: 25px;
 }
 
 .botao:hover{
